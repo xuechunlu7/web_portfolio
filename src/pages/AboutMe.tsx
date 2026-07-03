@@ -77,10 +77,13 @@ export default function AboutMe() {
           <div style={{ marginTop: '2.5rem' }}>
             <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>Why the Shift to Software Engineering?</h3>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1rem', fontSize: '0.95rem' }}>
-              After years of building complex risk engines, I realized that my favorite part of the job was always writing the code to implement, optimize, and scale those models. While my background in statistics gave me a deep understanding of data logic, I wanted to dive deeper into the underlying systems that bring that data to life as a builder myself.
+              I entered the workforce in the fall of 2021, right on the precipice of the AI revolution. Through my experiences in consulting and risk management, I observed firsthand how statistical modeling & coding, system migration and product management in enterprise environments were severely bottlenecked by expensive human labor. We relied heavily on subject matter experts because it was impossible to simply "download" their domain knowledge. Translating high-level mathematical intuition into production-ready code was an incredibly slow, rigid, and costly process that often stifled rapid iteration and creativity.
+            </p>
+            <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1rem', fontSize: '0.95rem' }}>
+              The massive leap in AI capabilities that accelerated in 2023 fundamentally changed this landscape. Now that specialized knowledge is instantly accessible, the barriers to complex implementation have dropped drastically, which made me think beyond risk management and wonder how I can leverage this technology to build my own tools, and make my ideas come true. This has unlocked the unprecedented possibility for an individual to operate as a "solo studio"—architecting, building, and scaling complete software systems independently. I fully embrace this newfound creative freedom and agility.
             </p>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '0', fontSize: '0.95rem' }}>
-              This realization led me to pursue a degree in Computer Science. My goal is to bridge the gap between high-level mathematical intuition and low-level system design—combining a strong analytical foundation with rigorous software engineering practices to build robust, scalable applications.
+              This realization catalyzed my shift to software engineering. My goal is to leverage these powerful AI tools alongside rigorous engineering practices to rapidly transform analytical logic and creative ideas into robust, user-facing applications.
             </p>
           </div>
         </div>
