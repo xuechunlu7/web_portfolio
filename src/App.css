@@ -178,3 +178,79 @@
   color: var(--text-main);
   margin-top: 1rem;
 }
+
+/* --- Mobile Responsiveness --- */
+@media (max-width: 768px) {
+  .scene-container {
+    flex-direction: column;
+  }
+  
+  .sidebar-area {
+    width: 100%;
+    height: auto;
+    padding: 1rem 0;
+    border-right: none;
+    border-bottom: 2px dashed rgba(255, 255, 255, 0.5);
+  }
+
+  .main-sign-container {
+    margin-bottom: 0.5rem;
+  }
+  
+  .floppa-mascot {
+    height: 60px;
+    margin-bottom: -10px;
+  }
+
+  .sign-text {
+    font-size: 1.6rem;
+  }
+
+  .created-by-text {
+    font-size: 0.9rem;
+  }
+
+  .wooden-sign {
+    padding: 4px 15px;
+  }
+
+  .nav-items-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.5rem;
+    padding: 0 0.5rem;
+  }
+
+  .interactive-object {
+    width: auto;
+    padding: 6px 10px;
+    gap: 0.5rem;
+  }
+
+  .object-icon-wrapper {
+    width: 32px;
+    height: 32px;
+  }
+  
+  .object-icon-wrapper svg {
+    width: 18px;
+    height: 18px;
+  }
+
+  .object-label {
+    font-size: 1.1rem;
+  }
+  
+  .content-area {
+    padding: 1rem;
+  }
+
+  .content-wrapper {
+    padding: 1.5rem;
+  }
+  
+  .empty-state h2 {
+    font-size: 2rem;
+  }
+}
