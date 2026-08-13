@@ -167,7 +167,25 @@ export default function AboutMe() {
             <div style={{ marginBottom: '1.5rem' }}>
               <h5 style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.75rem' }}>Language</h5>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-                {['Python', 'SQL', 'SAS', 'Java', 'C', 'PySpark', 'R', 'LaTeX'].map(skill => (
+                {['Python', 'TypeScript', 'SQL', 'SAS', 'Java', 'C', 'PySpark', 'R', 'LaTeX'].map(skill => (
+                  <span key={skill} style={{ background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '0.25rem 0.75rem', borderRadius: '99px', fontSize: '0.85rem', color: 'var(--text-primary)' }}>{skill}</span>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ marginBottom: '1.5rem' }}>
+              <h5 style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.75rem' }}>iOS Development</h5>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                {['Swift', 'SwiftUI', 'SwiftData', 'AVFoundation', 'Accelerate', 'iOS 17+', 'Xcode', 'App Store / TestFlight'].map(skill => (
+                  <span key={skill} style={{ background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '0.25rem 0.75rem', borderRadius: '99px', fontSize: '0.85rem', color: 'var(--text-primary)' }}>{skill}</span>
+                ))}
+              </div>
+            </div>
+
+            <div style={{ marginBottom: '1.5rem' }}>
+              <h5 style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.75rem' }}>Web Development</h5>
+              <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
+                {['React', 'TypeScript', 'Vite', 'CSS3', 'Lucide React'].map(skill => (
                   <span key={skill} style={{ background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '0.25rem 0.75rem', borderRadius: '99px', fontSize: '0.85rem', color: 'var(--text-primary)' }}>{skill}</span>
                 ))}
               </div>
@@ -185,7 +203,7 @@ export default function AboutMe() {
             <div>
               <h5 style={{ color: 'var(--text-primary)', fontSize: '0.95rem', fontWeight: 600, marginBottom: '0.75rem' }}>Cloud & Tools</h5>
               <div style={{ display: 'flex', flexWrap: 'wrap', gap: '0.5rem' }}>
-                {['Github', 'Azure Databricks', 'Tableau', 'JupyterNotebook'].map(skill => (
+                {['Github', 'Vercel', 'Azure Databricks', 'Tableau', 'JupyterNotebook'].map(skill => (
                   <span key={skill} style={{ background: 'rgba(255,255,255,0.15)', border: '1px solid rgba(255,255,255,0.3)', padding: '0.25rem 0.75rem', borderRadius: '99px', fontSize: '0.85rem', color: 'var(--text-primary)' }}>{skill}</span>
                 ))}
               </div>
