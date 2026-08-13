@@ -1,3 +1,5 @@
+import skatebeatIcon from '../assets/skatebeat-icon.jpg';
+
 export default function Application() {
   return (
     <div className="page-container">
@@ -6,10 +8,11 @@ export default function Application() {
 
       <div className="page-card glass">
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-          <h3 
-            style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)', cursor: 'pointer' }}
+          <h3
+            style={{ display: 'flex', alignItems: 'center', gap: '0.75rem', fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)', cursor: 'pointer', margin: 0 }}
             onClick={() => window.location.href = '/skatebeat'}
           >
+            <img src={skatebeatIcon} alt="SkateBeat Logo" style={{ width: '32px', height: '32px', borderRadius: '8px' }} />
             Project SkateBeat
           </h3>
           <span style={{
@@ -50,7 +53,7 @@ export default function Application() {
       <div className="page-card glass">
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
           <h3 style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)' }}>
-            SlideMind (AI PDF Assistant)
+            Project SlideMind (AI PDF Assistant)
           </h3>
           <span style={{
             background: 'rgba(255, 255, 255, 0.1)',
