@@ -19,7 +19,7 @@ export default function Application() {
             borderRadius: '99px',
             fontSize: '0.85rem',
             fontWeight: 500
-          }}>Live on App Store</span>
+          }}>In Review, Launching Soon</span>
         </div>
         <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '2rem', fontSize: '1rem' }}>
           A specialized iOS application designed to revolutionize how figure skaters practice. It allows athletes to seamlessly overlay custom verbal cues, precise metronome beats, and choreography markers directly onto their program music. Whether you're perfecting your free skate or mastering intricate ice dance patterns, SkateBeat provides the ultimate auditory training toolkit.
