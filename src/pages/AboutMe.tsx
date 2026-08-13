@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem' }}>
         <div>
           <h2 className="page-title" style={{ marginBottom: '0.5rem' }}>Profile Overview</h2>
-          <p className="page-subtitle" style={{ margin: 0, lineHeight: 1.6 }}>From Credit Risk Measurement and Data Analytics to Software Engineering. I write code to solve real-world puzzles, from high-level data to low-level systems.</p>
+          <p className="page-subtitle" style={{ margin: 0, lineHeight: 1.6 }}>From Credit Risk Measurement and Data Analytics to Software Engineering. I build tools to solve real-world puzzles, bridging the gap between high-level data and low-level systems.</p>
         </div>
       </div>
 
