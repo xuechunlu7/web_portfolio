@@ -36,7 +36,6 @@
   height: 100px;
   margin-bottom: -15px; /* sit on the sign */
   z-index: 2;
-  animation: float 4s ease-in-out infinite;
 }
 
 .wooden-sign {

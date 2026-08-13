@@ -22,7 +22,7 @@ body {
   background-color: var(--bg-sky);
   color: var(--text-main);
   min-height: 100vh;
-  overflow: hidden; /* Prevent scrolling, it's a fixed scene */
+  /* overflow removed to allow scrolling on new pages */
   
   /* Simple CSS sun and ground */
   background-image: 

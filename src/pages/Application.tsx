@@ -6,7 +6,12 @@ export default function Application() {
 
       <div className="page-card glass">
         <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
-          <h3 style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)' }}>Project SkateBeat</h3>
+          <h3 
+            style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)', cursor: 'pointer' }}
+            onClick={() => window.location.href = '/skatebeat'}
+          >
+            Project SkateBeat
+          </h3>
           <span style={{
             background: 'var(--accent-light)',
             color: 'var(--text-primary)',
@@ -14,10 +19,10 @@ export default function Application() {
             borderRadius: '99px',
             fontSize: '0.85rem',
             fontWeight: 500
-          }}>Active Development</span>
+          }}>Live on App Store</span>
         </div>
         <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '2rem', fontSize: '1rem' }}>
-          An IOS application to help users add verbal cues and beats to program music. This app is especially helpful for figure skaters who need to practice their programs with cues.
+          A specialized iOS application designed to revolutionize how figure skaters practice. It allows athletes to seamlessly overlay custom verbal cues, precise metronome beats, and choreography markers directly onto their program music. Whether you're perfecting your free skate or mastering intricate ice dance patterns, SkateBeat provides the ultimate auditory training toolkit.
         </p>
         <button style={{
           background: 'var(--accent-color)',
@@ -33,25 +38,41 @@ export default function Application() {
           alignItems: 'center',
           gap: '0.5rem'
         }}
+          onClick={() => window.location.href = '/skatebeat'}
           onMouseOver={(e) => e.currentTarget.style.background = 'var(--accent-hover)'}
           onMouseOut={(e) => e.currentTarget.style.background = 'var(--accent-color)'}>
           View Case Study
         </button>
       </div>
 
+
+
       <div className="page-card glass">
-        <h3 style={{ fontSize: '1.25rem', marginBottom: '1.25rem', fontWeight: 600, color: 'var(--text-primary)' }}>Internal Tooling</h3>
-        <div style={{ display: 'flex', flexDirection: 'column', gap: '1rem' }}>
-          <div style={{ borderLeft: '3px solid var(--accent-light)', paddingLeft: '1rem' }}>
-            <h4 style={{ color: 'var(--text-primary)', fontSize: '1rem', fontWeight: 500, marginBottom: '0.25rem' }}>DataSync ETL</h4>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Automated data pipeline generator processing over 10TB/month.</p>
-          </div>
-          <div style={{ borderLeft: '3px solid var(--accent-light)', paddingLeft: '1rem' }}>
-            <h4 style={{ color: 'var(--text-primary)', fontSize: '1rem', fontWeight: 500, marginBottom: '0.25rem' }}>UI Design System</h4>
-            <p style={{ color: 'var(--text-secondary)', fontSize: '0.95rem' }}>Comprehensive React component library utilized across 5 product lines.</p>
-          </div>
+        <div style={{ display: 'flex', alignItems: 'center', justifyContent: 'space-between', marginBottom: '1.25rem' }}>
+          <h3 style={{ fontSize: '1.25rem', fontWeight: 600, color: 'var(--text-primary)' }}>
+            SlideMind (AI PDF Assistant)
+          </h3>
+          <span style={{
+            background: 'rgba(255, 255, 255, 0.1)',
+            color: 'var(--text-secondary)',
+            padding: '0.25rem 0.75rem',
+            borderRadius: '99px',
+            fontSize: '0.85rem',
+            fontWeight: 500,
+            border: '1px solid rgba(255,255,255,0.2)'
+          }}>Planning Stage</span>
+        </div>
+        <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '2rem', fontSize: '1rem' }}>
+          An upcoming intelligent web application designed to collect and process PDF lecture slides. It automatically extracts keywords to build a searchable database, and leverages AI to generate comprehensive summaries, making studying and reviewing materials incredibly efficient.
+        </p>
+        <div style={{ display: 'flex', gap: '0.5rem', flexWrap: 'wrap' }}>
+          <span style={{ fontSize: '0.85rem', color: 'var(--accent-color)', background: 'var(--accent-light)', padding: '0.25rem 0.75rem', borderRadius: '4px' }}>RAG System</span>
+          <span style={{ fontSize: '0.85rem', color: 'var(--accent-color)', background: 'var(--accent-light)', padding: '0.25rem 0.75rem', borderRadius: '4px' }}>Vector Database</span>
+          <span style={{ fontSize: '0.85rem', color: 'var(--accent-color)', background: 'var(--accent-light)', padding: '0.25rem 0.75rem', borderRadius: '4px' }}>LLM Integration</span>
+          <span style={{ fontSize: '0.85rem', color: 'var(--accent-color)', background: 'var(--accent-light)', padding: '0.25rem 0.75rem', borderRadius: '4px' }}>Web App</span>
         </div>
       </div>
+
     </div>
   );
 }
