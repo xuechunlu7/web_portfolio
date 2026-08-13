@@ -94,7 +94,7 @@ export default function AboutMe() {
           <h4 style={{ color: 'var(--text-primary)', marginBottom: '1.5rem', fontWeight: 600, fontSize: '1.125rem' }}>Professional Experience</h4>
 
           <div style={{ marginBottom: '2rem', borderLeft: '3px solid var(--accent-blue)', paddingLeft: '1.25rem' }}>
-            <h5 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600, margin: '0 0 0.25rem 0' }}>Solo Founder @ Floppa Lab</h5>
+            <h5 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600, margin: '0 0 0.25rem 0' }}>Founder & Lead Engineer @ Floppa Lab</h5>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '0.75rem', fontWeight: 500 }}>July 2025 – Present | Waterloo, ON</p>
             <ul style={{ color: 'var(--text-secondary)', lineHeight: 1.6, paddingLeft: '1.25rem', fontSize: '0.95rem', margin: 0 }}>
               <li style={{ marginBottom: '0.25rem' }}><strong>iOS Development:</strong> Architected, built, and launched <em>SkateBeat</em>, a specialized iOS application designed to assist figure skaters with training, metronome alignments, and musical cues. Successfully deployed to the App Store.</li>
