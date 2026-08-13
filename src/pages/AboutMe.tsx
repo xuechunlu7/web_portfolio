@@ -8,7 +8,7 @@ export default function AboutMe() {
       <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', marginBottom: '2rem' }}>
         <div>
           <h2 className="page-title" style={{ marginBottom: '0.5rem' }}>Profile Overview</h2>
-          <p className="page-subtitle" style={{ margin: 0, lineHeight: 1.6 }}>From Credit Risk Measurement and Data Analytics to Software Engineering. I build tools to solve real-world puzzles, bridging the gap between high-level data and low-level systems.</p>
+          <p className="page-subtitle" style={{ margin: 0, lineHeight: 1.6 }}>From Credit Risk Measurement and Data Analytics to Software Engineering 📊➡️💻. I build tools to solve real-world puzzles 🧩.</p>
         </div>
       </div>
 
@@ -69,15 +69,15 @@ export default function AboutMe() {
         <div className="page-card glass animate-fade-in">
           <h3 style={{ fontSize: '1.25rem', marginBottom: '1.25rem', fontWeight: 600, color: 'var(--text-primary)' }}>Executive Summary</h3>
           <ul style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '0', fontSize: '1rem', paddingLeft: '1.25rem' }}>
-            <li style={{ marginBottom: '0.75rem' }}><strong>Enterprise Experience:</strong> 4 years driving risk engineering, financial metrics modeling, and analytics at industry-leading institutions.</li>
-            <li style={{ marginBottom: '0.75rem' }}><strong>Academic Rigor:</strong> Master’s in Statistics coupled with an ongoing Bachelor’s in Computer Science, providing a rare blend of high-level mathematical intuition and low-level system understanding.</li>
-            <li style={{ marginBottom: '0' }}><strong>Engineering Execution:</strong> Independent developer operating across data analytics, full stack development, and system engineering, utilizing AI-driven tools to architect, build, and ship functional software applications.</li>
+            <li style={{ marginBottom: '0.75rem' }}>🏢 <strong>Enterprise Experience:</strong> 4 years driving risk engineering, financial metrics modeling, and analytics at industry-leading institutions.</li>
+            <li style={{ marginBottom: '0.75rem' }}>🎓 <strong>Academic Rigor:</strong> Master’s in Statistics coupled with an ongoing Bachelor’s in Computer Science, providing a rare blend of high-level mathematical intuition and low-level system understanding.</li>
+            <li style={{ marginBottom: '0' }}>⚙️ <strong>Engineering Execution:</strong> Independent developer operating across data analytics, full stack development, and system engineering, utilizing AI-driven tools to architect, build, and ship functional software applications.</li>
           </ul>
 
           <div style={{ marginTop: '2.5rem' }}>
-            <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>Why the Shift to Software Engineering?</h3>
+            <h3 style={{ fontSize: '1.25rem', marginBottom: '1rem', fontWeight: 600, color: 'var(--text-primary)' }}>🚀 Why the Shift to Software Engineering?</h3>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1rem', fontSize: '0.95rem' }}>
-              I entered the workforce in the fall of 2021, right on the precipice of the AI revolution. Through my experiences in consulting and risk management, I observed firsthand how statistical modeling & coding, system migration and product management in enterprise environments were severely bottlenecked by expensive human labor. We relied heavily on subject matter experts because it was impossible to simply "download" their domain knowledge. Translating high-level mathematical intuition into production-ready code was an incredibly slow, rigid, and costly process that often stifled rapid iteration and creativity.
+              I entered the workforce in the fall of 2021, right on the precipice of the AI revolution. Through my experiences in consulting and risk management, I observed firsthand how statistical modeling & coding, system migration and product management in enterprise environments were severely bottlenecked by expensive human labor. We relied heavily on subject matter experts because it was impossible to simply "download" their domain knowledge. Translating high-level mathematical intuition into production-ready code was an incredibly slow, rigid, and costly process that often stifled rapid iteration and creativity (I was the expensive subject matter expert! 😉)
             </p>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '1rem', fontSize: '0.95rem' }}>
               The massive leap in AI capabilities that accelerated in 2023 fundamentally changed this landscape. Now that specialized knowledge is instantly accessible, the barriers to complex implementation have dropped drastically, which made me think beyond risk management and wonder how I can leverage this technology to build my own tools, and make my ideas come true. This has unlocked the unprecedented possibility for an individual to operate as a "solo studio"—architecting, building, and scaling complete software systems independently. I fully embrace this newfound creative freedom and agility.
@@ -97,7 +97,7 @@ export default function AboutMe() {
             <h5 style={{ color: 'var(--text-primary)', fontSize: '1.1rem', fontWeight: 600, margin: '0 0 0.25rem 0' }}>Solo Founder @ Floppa Lab</h5>
             <p style={{ color: 'var(--text-secondary)', fontSize: '0.9rem', marginBottom: '0.75rem', fontWeight: 500 }}>July 2025 – Present | Waterloo, ON</p>
             <ul style={{ color: 'var(--text-secondary)', lineHeight: 1.6, paddingLeft: '1.25rem', fontSize: '0.95rem', margin: 0 }}>
-              <li style={{ marginBottom: '0.25rem' }}><strong>iOS Development:</strong> Developing a figure skating-focused iOS application designed to assist athletes with training and musical cues.</li>
+              <li style={{ marginBottom: '0.25rem' }}><strong>iOS Development:</strong> Architected, built, and launched <em>SkateBeat</em>, a specialized iOS application designed to assist figure skaters with training, metronome alignments, and musical cues. Successfully deployed to the App Store.</li>
               <li style={{ marginBottom: '0.25rem' }}><strong>Business & Sales:</strong> Initiating and spearheading direct B2C sales and marketing initiatives directly at local ice rinks.</li>
               <li><strong>Costume Design:</strong> Designing, drafting, and hand-crafting custom figure skating costumes.</li>
             </ul>
