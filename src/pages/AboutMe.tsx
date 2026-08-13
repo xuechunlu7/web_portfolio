@@ -83,7 +83,7 @@ export default function AboutMe() {
               The massive leap in AI capabilities that accelerated in 2023 fundamentally changed this landscape. Now that specialized knowledge is instantly accessible, the barriers to complex implementation have dropped drastically, which made me think beyond risk management and wonder how I can leverage this technology to build my own tools, and make my ideas come true. This has unlocked the unprecedented possibility for an individual to operate as a "solo studio"—architecting, building, and scaling complete software systems independently. I fully embrace this newfound creative freedom and agility.
             </p>
             <p style={{ color: 'var(--text-secondary)', lineHeight: 1.7, marginBottom: '0', fontSize: '0.95rem' }}>
-              This realization catalyzed my shift to software engineering. My goal is to leverage these powerful AI tools alongside rigorous engineering practices to rapidly transform analytical logic and creative ideas into robust, user-facing applications.
+              This realization catalyzed my shift to software engineering. My goal is to leverage these powerful AI tools alongside rigorous engineering practices to rapidly transform analytical logic and creative ideas into robust, user-facing applications. I am committed to continuously building and expanding Floppa Lab to bring more of these ideas to life.
             </p>
           </div>
         </div>
